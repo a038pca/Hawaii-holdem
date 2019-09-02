@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 3fbd6eda8b548834b89b2acc0e360a40
+guid: 89f655bbafb4c49f58935615ef3a6d00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: MR_UI_PBO_Ball_DC
+      213: 1818852668181483497
+    second: Water Splash
   - first:
-      213: 21300002
-    second: MR_UI_PBO_TotalUI_DC
+      213: -893835733430042808
+    second: Water Splash (1)
   - first:
-      213: 21300004
-    second: MR_UI_PBO_XButton_DC
+      213: 1719418128622231102
+    second: Water Splash (2)
   - first:
-      213: 21300006
-    second: MR_UI_PBO_MirAccMacaw_DC
+      213: 7658975318335506585
+    second: Water Splash (3)
+  - first:
+      213: 5290023661812315270
+    second: Water Splash (4)
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -39,7 +42,7 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
@@ -57,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -82,89 +85,134 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MR_UI_PBO_Ball_DC
+      name: Water Splash
       rect:
         serializedVersion: 2
-        x: 0
-        y: 702
-        width: 346
-        height: 322
+        x: 2854
+        y: 3512
+        width: 2515
+        height: 558
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 482f646e0ce6541cb8d8811eca81dadf
+      internalID: 1818852668181483497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MR_UI_PBO_TotalUI_DC
+      name: Water Splash (1)
       rect:
         serializedVersion: 2
-        x: 351
-        y: 875
-        width: 422
-        height: 149
+        x: 342
+        y: 2443
+        width: 3062
+        height: 601
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: 0880731f00bdd4c228dc488da262735e
+      internalID: -893835733430042808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MR_UI_PBO_XButton_DC
+      name: Water Splash (2)
       rect:
         serializedVersion: 2
-        x: 778
-        y: 878
-        width: 146
-        height: 146
+        x: 5018
+        y: 2411
+        width: 2535
+        height: 480
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: 983b6aa9bf445494c91e884f8b4fb811
+      internalID: 1719418128622231102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MR_UI_PBO_MirAccMacaw_DC
+      name: Water Splash (3)
       rect:
         serializedVersion: 2
-        x: 0
-        y: 539
-        width: 140
-        height: 158
+        x: 115
+        y: 346
+        width: 4090
+        height: 694
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: 792a699e6a3ff4201aedc1c4d3a637bc
+      internalID: 7658975318335506585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash (4)
+      rect:
+        serializedVersion: 2
+        x: 4811
+        y: 414
+        width: 3050
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51c41a5d9bd04224bd796c7d9227d3a
+      internalID: 5290023661812315270
       vertices: []
       indices: 
       edges: []
@@ -172,7 +220,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

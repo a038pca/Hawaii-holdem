@@ -13,7 +13,7 @@ public class GamblingChipBoard : MonoBehaviour
     private Text chipText;
     
     void Awake() {
-        chipText = transform.GetChild(0).GetComponent<Text>();
+        chipText = transform.GetChild(1).GetComponent<Text>();
     }
 
     // Chnage the display of chipText according to int number representing the number of gambling chips.

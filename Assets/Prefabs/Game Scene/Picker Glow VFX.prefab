@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 19811008}
   - component: {fileID: 19996784}
   m_Layer: 0
-  m_Name: MR_VFX_PickerGlow_Sparks_PE
+  m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4691,7 +4691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 467166}
   m_Layer: 0
-  m_Name: MR_VFX_PickerGlow_P
+  m_Name: Picker VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
